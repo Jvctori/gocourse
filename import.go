@@ -5,6 +5,9 @@ import (
 	"net/http"
 )
 
+// Three shaking and its application
+// three shaking remove modulos de bibliotecas que não estão sendo usados
+// go compiler j́á faz isso para você
 func main() {
 	fmt.Println("Hello, Go Standard Library")
 
