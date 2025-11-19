@@ -18,7 +18,6 @@ func main() {
 	fmt.Println("Subtraction:", result)
 
 	// DIVISÃO
-
 	result = a / b
 	fmt.Println("Division:", result)
 
@@ -41,6 +40,7 @@ func main() {
 	// se voce passar um valor maior do que o suportado em float32...
 	// ...ocorrerá um erro: se configura: OVERFLOW
 
+	// OVERFLOW CONCEITO:
 	/*var maxInt int64 = 92233221314127231823912746123617
 	fmt.Println(maxInt)*/
 	// output: ./arimetic_operators.go:41:21: cannot use 92233221314127231823912746123617 (untyped int constant) as int64 value in variable declaration (overflows)
