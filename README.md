@@ -1,4 +1,4 @@
 # gocourse
 
 
-__just my go notations for practice__
+__just my go repo for practice__
