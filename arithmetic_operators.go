@@ -72,4 +72,6 @@ func main() {
 	fmt.Println(math.MaxFloat32)
 	fmt.Print("Max float64: ")
 	fmt.Println(math.MaxFloat64)
+	fmt.Print("Max uint32: ")
+	fmt.Println(math.MaxUint32)
 }
