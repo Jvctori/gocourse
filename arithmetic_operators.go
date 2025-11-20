@@ -8,7 +8,7 @@ import (
 func main() {
 	// Variables declaration
 	// SOMA!
-	var a, b int = 10, 3
+	var a, b = 10, 3
 	var result int
 	result = a + b
 	fmt.Println("Adittion:", result)
@@ -32,7 +32,7 @@ func main() {
 	var p float64 = 22 / 7
 	fmt.Println("O interpretador do go não irá retornar a divisão exata (em float) pois os 2 valores, apesar de terem sidos delcarados como float, não carregam: .0, p =", p)
 
-	var q float64 = 22 / 7.0
+	var q = 22.0 / 7.0
 	fmt.Println("o 7 foi declarado como: 7.0, a divisão será precisa: q =", q)
 	// É uma boa praticar colocar as operações aritmetricas entre ()
 	// exemplo: (1 + 1)
@@ -41,6 +41,7 @@ func main() {
 	// ...ocorrerá um erro: se configura: OVERFLOW
 
 	// OVERFLOW CONCEITO:
+	// se trata de um erro quando um valor é maior do que o suportado pelo tipo de dado
 	/*var maxInt int64 = 92233221314127231823912746123617
 	fmt.Println(maxInt)*/
 	// output: ./arimetic_operators.go:41:21: cannot use 92233221314127231823912746123617 (untyped int constant) as int64 value in variable declaration (overflows)
@@ -56,7 +57,7 @@ func main() {
 	uMaxInt = (uMaxInt + 1)
 	fmt.Println("O que acontece se adicionar +1 ao uint64:", uMaxInt)
 
-	var smallFloat float64 = 1.0e-323
+	var smallFloat = 1.0e-323
 	fmt.Println(smallFloat)
 	smallFloat = (smallFloat / math.MaxFloat64)
 	fmt.Println(smallFloat)
