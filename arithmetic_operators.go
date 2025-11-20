@@ -64,4 +64,6 @@ func main() {
 	// UNDERFLOW with floating numbers:
 	// output foi 0 pois é uma divisão muito grande, ou seja:...
 	// não há possiblidade do float64 representar esse valor muito pequeno
+	fmt.Print("Valor maximo de um int64: ")
+	fmt.Println(math.MaxInt64)
 }
