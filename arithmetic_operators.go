@@ -66,4 +66,10 @@ func main() {
 	// não há possiblidade do float64 representar esse valor muito pequeno
 	fmt.Print("Valor maximo de um int64: ")
 	fmt.Println(math.MaxInt64)
+	fmt.Print("Max int32: ")
+	fmt.Println(math.MaxInt32)
+	fmt.Print("Max float32: ")
+	fmt.Println(math.MaxFloat32)
+	fmt.Print("Max float64: ")
+	fmt.Println(math.MaxFloat64)
 }
